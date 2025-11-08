@@ -1,0 +1,11 @@
+2025-11-08 16:58:15,099 - root - INFO - Logging level: info
+2025-11-08 16:58:15,099 - root - INFO - Logging file: ../logs/log.log
+2025-11-08 16:58:15,099 - root - INFO - Logging format: %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2025-11-08 16:58:15,099 - root - INFO - Logging mode: w
+2025-11-08 16:58:15,099 - root - INFO - Config path: ../config.json
+2025-11-08 16:58:15,099 - root - INFO - Config: {'titles': ['为什么这里会有FeSo4a的咬痕？', '这只是一个普普通通的记事本~'], 'version': '1.0.0', 'author': 'FeSo4a', 'github': 'https://github.com/FeSo4a', 'loggings': {'level': 'info', 'file': '../logs/log.log', 'mode': 'w', 'format': '%(asctime)s - %(name)s - %(levelname)s - %(message)s'}, 'if_close': ['真的要退出吗qwq', '别退出啊，你确定吗qwq']}
+2025-11-08 16:58:15,099 - root - INFO - Logging started.
+2025-11-08 16:58:15,189 - root - INFO - Windows initialized.
+2025-11-08 16:58:15,189 - root - INFO - Version: 未知
+2025-11-08 16:58:15,189 - root - INFO - Title: 这只是一个普普通通的记事本~
+2025-11-08 16:58:15,189 - root - INFO - Ready.

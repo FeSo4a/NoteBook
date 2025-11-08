@@ -1,0 +1,19 @@
+{
+    "titles": [
+      "为什么这里会有FeSo4a的咬痕？",
+      "这只是一个普普通通的记事本~"
+    ],
+    "version": "1.0.0",
+    "author": "FeSo4a",
+    "github": "https://github.com/FeSo4a",
+    "loggings": {
+        "level": "info",
+        "file": "../logs/log.log",
+        "mode": "w",
+        "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    },
+    "if_close": [
+      "真的要退出吗qwq",
+      "别退出啊，你确定吗qwq"
+    ]
+}
