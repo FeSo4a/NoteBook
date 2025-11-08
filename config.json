@@ -1,22 +1,5 @@
 {
-  "titles": [
-    "为什么这里会有FeSo4a的咬痕？",
-    "这只是一个普普通通的记事本~",
-    "今日份的灵感收集器已上线！",
-    "让文字为你打工的神奇小本本",
-    "据说99%的创意都诞生于此",
-    "警告：内含大量奇思妙想",
-    "你的第二个大脑正在待命中",
-    "拯救拖延症的最后一根稻草",
-    "这里藏着改变世界的想法",
-    "每天一本，灵感不愁！",
-    "程序员的秘密武器",
-    "写作困难户的救星来了",
-    "今天也要元气满满地记录呢~",
-    "灵感爆棚专用存储设备",
-    "让思绪飞一会儿的地方"
-  ],
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "FeSo4a",
   "github": "https://github.com/FeSo4a",
   "loggings": {
@@ -25,18 +8,15 @@
     "mode": "w",
     "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
   },
-  "if_close": [
-    "真的要退出吗qwq",
-    "别退出啊，你确定吗qwq",
-    "笔记还没写完呢，确定要离开吗？",
-    "等等！你的灵感可能就在下一秒爆发！",
-    "关闭前再看一眼，说不定有惊喜~",
-    "你确定不给FeSo4a一个继续服务的机会吗？",
-    "退出可以，但创意不等人哦~",
-    "再坚持一下下，说不定能成为作家呢！",
-    "笔记：'主人不要抛弃我...喵呜...'",
-    "Are you sure? Your ideas might be lonely without you!",
-    "关闭 = 放弃今天的奇思妙想，确定吗？",
-    "温馨提示：退出前请确认没有未保存的重要想法"
-  ]
+  "save_path": {
+    "colluages": "../saves/colluages.json",
+    "back": "../saves/back.json",
+    "font": "../saves/font.txt",
+    "alpha": "../saves/alpha.txt",
+    "size": "../saves/size.txt"
+  },
+  "assets_path": {
+    "title": "../assets/title.json",
+    "if_close": "../assets/if_close.json"
+  }
 }

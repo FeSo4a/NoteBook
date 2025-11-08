@@ -16,6 +16,7 @@ A simple and lightweight text editor built with Python and Tkinter.
   - Intuitive menu system
   - Confirmation dialogs for important actions
   - Helpful about and help sections
+  - Fun and creative window titles
 
 ## Installation
 
@@ -27,12 +28,14 @@ A simple and lightweight text editor built with Python and Tkinter.
 1. Clone or download this repository
 2. Navigate to the source directory
 3. Run the application:
+
 ```bash
 python NoteBook.pyw
 ```
 
 ### Creating Executable
 To create a standalone executable without console window:
+
 ```bash
 pip install pyinstaller
 pyinstaller --noconsole --onefile NoteBook.pyw
@@ -57,9 +60,9 @@ pyinstaller --noconsole --onefile NoteBook.pyw
 
 ## Configuration
 
-The application uses JSON configuration files stored in the [../config.json](config.json) path:
-- Custom window titles
-- Exit confirmation messages
+The application uses JSON configuration files:
+- Custom window titles with creative and fun messages
+- Exit confirmation messages with various playful prompts
 - Application version and author information
 - Logging settings
 
@@ -96,9 +99,25 @@ Personal preferences are saved in the `../saves/` directory:
 - `Enter`: Insert new line
 - `Delete/Backspace`: Delete characters
 
+## Sample Window Titles
+
+- "Why are there bite marks from FeSo4a here?"
+- "This is just an ordinary notebook~"
+- "Today's inspiration collector is online!"
+- "The magical notebook that makes words work for you"
+- "It's said that 99% of creative ideas are born here"
+
+## Sample Exit Confirmation Messages
+
+- "Really want to exit? qwq"
+- "Don't exit! Are you sure? qwq"
+- "The note isn't finished yet, are you sure you want to leave?"
+- "Wait! Your inspiration might burst in the next second!"
+- "Before closing, take another look, there might be surprises~"
+
 ## Author
 
-FeSo4a - [GitHub Profile](https://github.com/FeSo4a)
+FeSo4a - [GitHub Profile](https://github.com/FeSo4a)  
 [bilibili](https://space.bilibili.com/3546674548967510)
 
 ## License
