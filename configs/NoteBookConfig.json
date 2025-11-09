@@ -1,0 +1,22 @@
+{
+  "version": "1.2.2",
+  "author": "FeSo4a",
+  "github": "https://github.com/FeSo4a",
+  "loggings": {
+    "level": "info",
+    "file": "../logs/NoteBookLog.log",
+    "mode": "w",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  },
+  "save_path": {
+    "colluages": "../saves/NoteBookDatas/colluages.json",
+    "back": "../saves/NoteBookDatas/back.json",
+    "font": "../saves/NoteBookDatas/font.txt",
+    "alpha": "../saves/NoteBookDatas/alpha.txt",
+    "size": "../saves/NoteBookDatas/size.txt"
+  },
+  "assets_path": {
+    "title": "../assets/title.json",
+    "if_close": "../assets/if_close.json"
+  }
+}

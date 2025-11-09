@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "author": "FeSo4a",
+  "github": "https://github.com/FeSo4a",
+  "loggings": {
+    "level": "info",
+    "file": "../logs/PressLog.log",
+    "mode": "w",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  },
+  "save_path": {
+    "backup": "../saves/PressDatas/backup.txt",
+    "save": "../saves/PressDatas/save.txt"
+  }
+}

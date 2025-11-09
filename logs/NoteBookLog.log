@@ -1,0 +1,14 @@
+2025-11-09 11:22:47,944 - root - INFO - Logging level: info
+2025-11-09 11:22:47,944 - root - INFO - Logging file: ../logs/NoteBookLog.log
+2025-11-09 11:22:47,944 - root - INFO - Logging format: %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2025-11-09 11:22:47,944 - root - INFO - Logging mode: w
+2025-11-09 11:22:47,944 - root - INFO - Config path: ../configs/NoteBookConfig.json
+2025-11-09 11:22:47,944 - root - INFO - Config: {'version': '1.2.2', 'author': 'FeSo4a', 'github': 'https://github.com/FeSo4a', 'loggings': {'level': 'info', 'file': '../logs/NoteBookLog.log', 'mode': 'w', 'format': '%(asctime)s - %(name)s - %(levelname)s - %(message)s'}, 'save_path': {'colluages': '../saves/NoteBookDatas/colluages.json', 'back': '../saves/NoteBookDatas/back.json', 'font': '../saves/NoteBookDatas/font.txt', 'alpha': '../saves/NoteBookDatas/alpha.txt', 'size': '../saves/NoteBookDatas/size.txt'}, 'assets_path': {'title': '../assets/title.json', 'if_close': '../assets/if_close.json'}}
+2025-11-09 11:22:47,944 - root - INFO - Logging started.
+2025-11-09 11:22:48,131 - root - INFO - Windows initialized.
+2025-11-09 11:22:48,131 - root - INFO - Version: 未知
+2025-11-09 11:22:48,131 - root - INFO - Title: 让思绪飞一会儿的地方
+2025-11-09 11:22:48,131 - root - INFO - Ready.
+2025-11-09 11:22:48,141 - root - ERROR - Error: [Errno 2] No such file or directory: '../saves/NoteBookDatas/back.json', using default config.
+2025-11-09 11:22:49,990 - root - INFO - Init...
+2025-11-09 11:22:49,991 - root - INFO - Load save: 0
