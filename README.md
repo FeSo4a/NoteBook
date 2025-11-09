@@ -17,6 +17,9 @@ A simple and lightweight text editor built with Python and Tkinter.
   - Confirmation dialogs for important actions
   - Helpful about and help sections
   - Fun and creative window titles
+- **Built-in Game**:
+  - Integrated mini-games for entertainment during breaks
+  - Simple and addictive gameplay to refresh your mind
 
 ## Installation
 
@@ -67,11 +70,11 @@ The application uses JSON configuration files:
 - Logging settings
 
 Personal preferences are saved in the `../saves/` directory:
-- [font.txt](saves\font.txt): Font color settings
-- [back.txt](saves\back.txt): Background color settings
-- [size.txt](saves\size.txt): Font size preferences
-- [alpha.txt](saves\alpha.txt): Window transparency level
-- [colluages.json](saves\colluages.json): Collaborator information
+- [font.txt](saves\NoteBookDatas\font.txt): Font color settings
+- [back.txt](saves\NoteBookDatas\back.txt): Background color settings
+- [size.txt](saves\NoteBookDatas\size.txt): Font size preferences
+- [alpha.txt](saves\NoteBookDatas\alpha.txt): Window transparency level
+- [colluages.json](saves\NoteBookDatas\colluages.json): Collaborator information
 
 ## Keyboard Shortcuts
 
