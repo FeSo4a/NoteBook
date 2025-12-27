@@ -3,7 +3,6 @@ import random
 import tkinter as tk
 
 import NoteBookModels
-import GameModels
 
 config_path = '../configs/NoteBookConfig.json'
 version = '未知'
@@ -104,6 +103,7 @@ def root_window_init():
         # 读取配置文件，设置窗口标题
         with open(save_path['alpha'], 'r', encoding='utf-8') as j:
             alpha = j.read()
+            # noinspection PyShadowingNames
             title = random.choice(titles)
 
             root_window.title(title)
@@ -139,10 +139,10 @@ def menus_init():
     new_file.add_command(label='打开', command=lambda: NoteBookModels.open_file.open_(root_window, text))
     new_file.add_command(label='保存', command=lambda: NoteBookModels.open_file.save(root_window, text))
 
-    colluage = tk.Menu(main_menu, tearoff=0)
-    colluage.add_command(label='添加', command=lambda: NoteBookModels.colluages.add_colluage(root_window, save_path))
-    colluage.add_command(label='删除', command=lambda: NoteBookModels.colluages.delete_colluage(root_window, save_path))
-    colluage.add_command(label='查看', command=lambda: NoteBookModels.colluages.colluage_list(root_window, save_path))
+    collage = tk.Menu(main_menu, tearoff=0)
+    collage.add_command(label='添加', command=lambda: NoteBookModels.colluages.add_colluage(root_window, save_path))
+    collage.add_command(label='删除', command=lambda: NoteBookModels.colluages.delete_colluage(root_window, save_path))
+    collage.add_command(label='查看', command=lambda: NoteBookModels.colluages.colluage_list(root_window, save_path))
 
     setting = tk.Menu(main_menu, tearoff=0)
     setting.add_command(label='字体颜色',
@@ -154,19 +154,14 @@ def menus_init():
     setting.add_command(label='窗口透明度',
                         command=lambda: NoteBookModels.settings.window_alpha(root_window, save_path))
 
-    game = tk.Menu(main_menu, tearoff=0)
-    # 在 menus_init() 函数中修改游戏菜单项
-    game.add_command(label='按！', command=lambda: GameModels.run_game())
-
     help_menu = tk.Menu(main_menu, tearoff=0)
     help_menu.add_command(label='关于', command=lambda: NoteBookModels.helps.about(root_window, config_path))
     help_menu.add_command(label='帮助', command=lambda: NoteBookModels.helps.help__(root_window, help_))
     help_menu.add_command(label='退出', command=lambda: NoteBookModels.helps.if_close(root_window, if_closes))
 
     main_menu.add_cascade(label='文件', menu=new_file)
-    main_menu.add_cascade(label='同事', menu=colluage)
+    main_menu.add_cascade(label='同事', menu=collage)
     main_menu.add_cascade(label='设置', menu=setting)
-    main_menu.add_cascade(label='放松一会', menu=game)
     main_menu.add_cascade(label='帮助', menu=help_menu)
 
     root_window.config(menu=main_menu)

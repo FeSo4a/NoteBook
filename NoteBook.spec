@@ -5,7 +5,7 @@ block_cipher = None
 
 
 a = Analysis(
-    ['NoteBook.pyw'],
+    ['src\\NoteBook.pyw'],
     pathex=[],
     binaries=[],
     datas=[],

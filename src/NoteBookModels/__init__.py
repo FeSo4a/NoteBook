@@ -8,7 +8,7 @@ from .open_file import save, open_
 from .settings import font_color, back_color, font_size, window_alpha
 
 # 可以给模块起别名以便于访问
-import NoteBookModels.colluages as colluages_module
+import NoteBookModels.colluages as collages_module
 import NoteBookModels.settings as settings_module
 
 __version__ = "1.2.2"
@@ -21,5 +21,5 @@ __all__ = [
     'load_loggings', 'load_saves', 'load_assets',
     'save', 'open_',
     'font_color', 'back_color', 'font_size', 'window_alpha',
-    'colluages_module', 'settings_module'
+    'collages_module', 'settings_module'
 ]

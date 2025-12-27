@@ -1,0 +1,11 @@
+2025-12-27 15:21:10,971 - root - INFO - Logging level: info
+2025-12-27 15:21:10,971 - root - INFO - Logging file: ../logs/NoteBookLog.log
+2025-12-27 15:21:10,972 - root - INFO - Logging format: %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2025-12-27 15:21:10,972 - root - INFO - Logging mode: w
+2025-12-27 15:21:10,972 - root - INFO - Config path: ../configs/NoteBookConfig.json
+2025-12-27 15:21:10,972 - root - INFO - Config: {'version': '1.3.3', 'author': 'FeSo4a', 'github': 'https://github.com/FeSo4a', 'loggings': {'level': 'info', 'file': '../logs/NoteBookLog.log', 'mode': 'w', 'format': '%(asctime)s - %(name)s - %(levelname)s - %(message)s'}, 'save_path': {'colluages': '../saves/NoteBookDatas/colluages.json', 'back': '../saves/NoteBookDatas/back.json', 'font': '../saves/NoteBookDatas/font.txt', 'alpha': '../saves/NoteBookDatas/alpha.txt', 'size': '../saves/NoteBookDatas/size.txt'}, 'assets_path': {'title': '../assets/title.json', 'if_close': '../assets/if_close.json'}}
+2025-12-27 15:21:10,973 - root - INFO - Logging started.
+2025-12-27 15:21:11,424 - root - INFO - Windows initialized.
+2025-12-27 15:21:11,424 - root - INFO - Version: 未知
+2025-12-27 15:21:11,424 - root - INFO - Title: 今天也要元气满满地记录呢~
+2025-12-27 15:21:11,425 - root - INFO - Ready.

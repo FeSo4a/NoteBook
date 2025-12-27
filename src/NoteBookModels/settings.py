@@ -75,7 +75,7 @@ def back_color(root_window, text, tk_colors, save_path):
     """
     # 创建背景颜色设置的顶层窗口
     back_color_window = tk.Toplevel(root_window)
-    back_color_window.title('字体颜色')
+    back_color_window.title('背景颜色')
     back_color_window.resizable(False, False)
 
     # 设置窗口焦点和模态特性
@@ -84,7 +84,7 @@ def back_color(root_window, text, tk_colors, save_path):
     back_color_window.transient(root_window)
 
     # 创建标签和颜色选择下拉框
-    back_color_label = tk.Label(back_color_window, text='请选择字体颜色：')
+    back_color_label = tk.Label(back_color_window, text='请选择背景颜色：')
     back_color_label.grid(row=0, column=0)
 
     color = tk.StringVar()
